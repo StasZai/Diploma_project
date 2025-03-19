@@ -1,0 +1,42 @@
+/* .search-nav{
+    border-bottom: 1px solid #35424a;
+} 
+*/
+.search-nav {
+    border-bottom: 2px solid #505050;
+}
+
+.search-nav .container-out .container-in .search-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-nav .container-out .container-in .logo-title{
+    padding-right: 30px;
+}
+
+.search-nav .container-out .container-in .search-input{
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.search-nav .container-out .container-in .sub-menu{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0;
+}
+
+.search-nav .container-out .container-in .sub-menu li{
+    padding-left: 30px;
+}
+
+.User a,
+.Favourites a,
+.Basket a{
+    text-decoration: none;
+    color: #35424a;
+}

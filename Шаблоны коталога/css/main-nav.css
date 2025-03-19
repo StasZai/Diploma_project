@@ -1,0 +1,24 @@
+.main-nav {
+    background: #35424a;
+}
+
+.main-nav .container-out .container-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav .container-out .container-in .main-options {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.main-nav .container-out .container-in .main-options li {
+    display: inline;
+    margin: 0 15px 0 0;
+}
+
+.main-nav .container-out .container-in ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}

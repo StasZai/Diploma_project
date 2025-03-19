@@ -1,0 +1,84 @@
+.furniture-nav {
+    margin: 0 0 20px 0;
+    border-bottom: 2px solid #505050;
+}
+
+.furniture-nav .furniture-content {
+    max-width: 1440px;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    position: relative;
+    justify-content: space-between;
+}
+
+.furniture-nav .furniture-content li {
+    width: 100%;
+    text-align: center;
+}
+
+.furniture-nav .furniture-content li .furniture-link {
+    text-decoration: none;
+    color: #35424a;
+    display: block;
+    padding: 15px 10px;
+}
+
+.furniture-nav .furniture-content li .furniture-link:hover {
+    background: #35424a;
+    color: #fff;
+}
+
+.furniture-nav .furniture-content li:hover .mega-furniture-box {
+    opacity: 1;
+    visibility: visible;
+}
+
+.furniture-nav .furniture-content .mega-furniture-box {
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    width: 100%;
+    border: 2px solid #505050;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.furniture-nav .mega-furniture-box .mega-furniture-content {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+    padding: 15px 20px 15px 20px;
+
+}
+
+.furniture-nav .mega-furniture-box .mega-furniture-content .row {
+    text-align: left;
+}
+
+.furniture-nav .mega-furniture-box .mega-furniture-content .row li {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    padding-bottom: 10px;
+    border: 0;
+}
+
+.furniture-nav .mega-furniture-box .mega-furniture-content .maga-furniture-title {
+    margin: 20px 0;
+}
+
+.furniture-nav .mega-furniture-box .mega-furniture-content .mega-furniture-img {
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.furniture-nav .mega-furniture-box .mega-furniture-content .mega-furniture-links {
+    padding: 0;
+}

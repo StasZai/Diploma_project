@@ -1,0 +1,13 @@
+/* Main css */
+@import url(css/style.css);
+
+
+@import url(css/main-nav.css);
+@import url(css/search-nav.css);
+@import url(css/furniture-nav.css);
+
+
+/* Swipers */
+@import url(css/swiper-bundle.min.css);
+@import url(css/products.css);
+@import url(css/products-swiper.css);
